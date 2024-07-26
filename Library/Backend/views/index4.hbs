@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style4.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <title>Student</title>
+</head>
+<body>
+    <ul class="NavBar">
+        <ul class="Menu">
+            <h1 class="Heading">STUDENTS</h1>
+            <ul class="Link">
+                <li><a href="/#Home" class="h">Home</a></li>
+                <li><a href="/#About" class="a">About</a></li>
+                <li><a href="/#Contact" class="c">Contact</a></li>
+            </ul>
+            <ul class="Lang">
+                <div class="Map">
+                    <img src="/images/Britain.png" />
+                </div>
+                <h2 class="Name">ENG</h2>
+            </ul>
+        </ul>
+    </ul>
+    <div class="BadiBody">
+        <section class="c1">
+            <div class="StudentList" >
+                {{#each student}}
+                    <a class="smg" style="text-decoration:none;" href="/index6/{{this.ID}}">
+                            <div class="A">
+                                <span class="smg">
+                                    <img class="studimg" src="/images/reading-student-1.png" alt="">
+                                </span>
+                                <span class="t">
+                                    {{this.ID}}
+                                </span>
+                            </div>
+                    </a>
+                {{/each}}
+            </div>
+            <div class="logo">
+                <img class="logo_ans" src="images/42b1c35eb06a50a9fdfa5feee5071a3e-removebg-preview.png" alt=""> 
+            </div>
+        </section>
+        
+    </div>
+    
+</body>
+</html>

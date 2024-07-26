@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <script src="jquery-2.1.4.js"></script>
+    <title>Library</title>
+</head>
+<body>
+    
+    <div class="loading-screen" id="loading-screen">    
+        <div aria-label="Orange and tan hamster running in a metal wheel" role="img" class="wheel-and-hamster">
+            <div class="wheel"></div>
+            <div class="hamster">
+                <div class="hamster__body">
+                    <div class="hamster__head">
+                        <div class="hamster__ear"></div>
+                        <div class="hamster__eye"></div>
+                        <div class="hamster__nose"></div>
+                    </div>
+                    <div class="hamster__limb hamster__limb--fr"></div>
+                    <div class="hamster__limb hamster__limb--fl"></div>
+                    <div class="hamster__limb hamster__limb--br"></div>
+                    <div class="hamster__limb hamster__limb--bl"></div>
+                    <div class="hamster__tail"></div>
+                </div>
+            </div>
+        <div class="spoke"></div>
+    </div>
+</div>
+    <ul class="NavBar">
+        <ul class="Menu">
+            <h1 class="Heading">LIBRARY</h1>
+            <ul class="Link">
+                <li><a href="#Home" class="h" >Home</a></li>
+                <li><a href="#About" class="a">About</a></li>
+                <li><a href="#Contact" class="c">Contact</a></li>
+            </ul>
+            <ul class="Lang">
+                <div class="Map">
+                    <img src="images/Britain.png" />
+                </div>
+                <h2 class="Name">ENG</h2>
+            </ul>
+        </ul>
+    </ul>
+    <div class="BadiBody">
+        <section class="c1" id="Home">
+            <p class="Buttons">
+                <a href="/index2"><button class="Button_Student" id="b1"><img src="images/Student.png" alt=""><br>Students</button></a>
+                <a href="/index3"><button class="Button_Books" id="b2"><img src="images/book-stack-1.png" alt=""><br>Books</button></a>
+            </p>
+            <div class="logo">
+                <img class="logo_ans" src="images/42b1c35eb06a50a9fdfa5feee5071a3e-removebg-preview.png" alt=""> 
+            </div>
+        </section>
+        <section class="c2" id="About">
+            <p class="abt">Welcome to our librarian website! This platform is designed specifically for librarians<br> who are passionate about curating knowledge, facilitating learning,<br> and creating an enriching experience for library patrons.</p>
+        </section>
+        <section class="c3" id="Contact">
+            <p class="cus">
+                The developers of this website are <br><br> Pranjal Jain - 7792069000 <br>Mail ID:- pranjalshp2310@gmail.com<br> Rajdeep Singh - 8949088349 <br> Mail ID:- rajdeepsinghrs07@gmail.com<br> Utkarsh Jain - 7425094343 <br> Mail ID:- jain.utkarsh215@gmail.com
+            </p>
+        </section>
+        <section class="c4">
+            <div>
+                Copyright 2023 ©  <br>For permissions , Contact the Team                                                                                          
+            </div>
+
+            
+        </section>
+    </div>
+    <script>
+        window.addEventListener('load', function() {
+            var loadingScreen = document.getElementById('loading-screen');
+            setTimeout(function() {
+                loadingScreen.style.display = 'none';
+            }, 500);
+        });
+    </script>
+
+</body>
+</html>

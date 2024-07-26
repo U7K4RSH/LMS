@@ -1,0 +1,240 @@
+body{
+    margin: 0%;
+    
+}
+
+.NavBar{
+    display: center;
+    position: fixed;
+    list-style-type: none;
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding:0px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-shrink: 0;
+    background: rgba(16, 16, 16, 0.50);
+}
+
+.Menu{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24%;
+}
+
+.Link{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    list-style: none;
+    color: #FFF;
+    font-size: 18px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.h {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    cursor: pointer;
+    border: 3px solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .h:active {
+    box-shadow: 0px 0px 0px 0px;
+    top: 5px;
+    left: 5px;
+  }
+  
+  @media (min-width: 768px) {
+    .h {
+      padding: 0.25em 0.75em;
+    }
+  }
+  .a {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    cursor: pointer;
+    border: 3px solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .a:active {
+    box-shadow: 0px 0px 0px 0px;
+    top: 5px;
+    left: 5px;
+  }
+  
+  @media (min-width: 768px) {
+    .a {
+      padding: 0.25em 0.75em;
+    }
+  }
+  .c {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    cursor: pointer;
+    border: 3px solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .c:active {
+    box-shadow: 0px 0px 0px 0px;
+    top: 5px;
+    left: 5px;
+  }
+  
+  @media (min-width: 768px) {
+    .c {
+      padding: 0.25em 0.75em;
+    }
+  }
+.Heading{
+    color: #FFF;
+    font-size: 32px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.Lang{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.Name{
+    color: #FFF;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.Map{
+    width: 25px;
+    height: 25px;
+}
+
+section{
+    padding-left: 0%;
+    padding-top: 0%;
+    height: 100vh;
+}
+
+.c1{
+    background: url(music-classroom-anime_1596921436.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    display: flex;
+    gap: 20%;
+    
+}
+.logo{
+  padding-top: 10%;
+}
+.StudentList{
+    overflow-y: scroll;
+    margin-left: 10%;
+    margin-top: 15%;
+    margin-bottom: 12%;
+    width: 410px;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(7.5px);
+    padding: 17px 0 17px 17px;
+
+    mask-image: linear-gradient(to top, transparent, black),
+        linear-gradient(to left, transparent 7px, black 7px);
+    mask-size: 100% 20000px;
+    mask-position: left bottom;
+    -webkit-mask-image: linear-gradient(to top, transparent, black),
+        linear-gradient(to left, transparent 7px, black 7px);
+    -webkit-mask-size: 100% 20000px;
+    -webkit-mask-position: left bottom;
+    transition: mask-position 0.3s, -webkit-mask-position 0.3s;
+}
+
+.StudentList:hover {
+    -webkit-mask-position: left top;
+}
+
+.StudentList::-webkit-scrollbar{
+    width: 7px;
+    border-radius: 10px;
+}
+
+.StudentList::-webkit-scrollbar-track{
+    background-color: black;
+}
+
+.StudentList::-webkit-scrollbar-thumb{
+    background: #4e4e4e;
+    border-radius: 9px;
+}
+
+.A{
+  display: table;
+  width: 90%;
+  height: 64px;
+  padding: 5px 10px;
+  margin-bottom: 3%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 14px;
+  background: #D9D9D9;
+
+}
+
+.t{
+  margin-left: 30%;
+  font-family: 'Poppins', sans-serif;
+  font-size: large;
+}
+
+.smg:focus{
+  cursor: pointer;
+  outline: none;
+}
+/* Loading */
+

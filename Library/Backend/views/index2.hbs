@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style2.css">
+    <script src="jquery-2.1.4.js"></script>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <title>Students</title>
+</head>
+<body>
+    
+    <ul class="NavBar">
+        <ul class="Menu">
+            <h1 class="Heading">STUDENTS</h1>
+            <ul class="Link">
+                <li><a href="/#Home" class="h">Home</a></li>
+                <li><a href="/#About" class="a">About</a></li>
+                <li><a href="/#Contact" class="c">Contact</a></li>
+            </ul>
+            <ul class="Lang">
+                <div class="Map">
+                    <img src="images/Britain.png" />
+                </div>
+                <h2 class="Name">ENG</h2>
+            </ul>
+        </ul>
+    </ul>
+    <div class="BadiBody">
+        <section class="c1">
+            <p class="Buttons">
+                <a href="/index4"><button class="Button_Student"><img src="images/list.png" alt=""><br>Student List</button></a>
+                <a href="#divOne"><button class="Button_Books"><img src="images/registration.png" alt=""><br>Student Registration</button></a>
+            </p>
+            <div class="logo">
+                <img class="logo_ans" src="images/42b1c35eb06a50a9fdfa5feee5071a3e-removebg-preview.png" alt=""> 
+            </div>
+            <div class="overlay" id="divOne">
+                <div class="wrapper">
+                    <h2>Registeration Form</h2><a class="close" href="#">&times;</a>
+                    <div class="content">
+                        <div class="container">
+                            <form action="/index2" method="post">
+                                <label>Student ID</label>
+                                <input placeholder="ID" type="text" name="ID" required>
+                                <label>Name</label>
+                                <input placeholder="Name of the Student" type="text" name="Name" required>
+                                <label>Email</label> 
+                                <input placeholder="Email" type="string" name="Email" required>
+                                <label>Phone Number</label> 
+                                <input placeholder="Phone Number" type="number" name="Phone"required>
+                                <input type="submit" value="Submit">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </div>
+    
+</body>
+</html>
